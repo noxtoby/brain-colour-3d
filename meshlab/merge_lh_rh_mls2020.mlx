@@ -1,0 +1,9 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+  <filter name="Flatten Visible Layers">
+   <Param name="MergeVisible" value="true" isxmlparam="0" type="RichBool"/>
+   <Param name="DeleteLayer" value="true" isxmlparam="0" type="RichBool"/>
+   <Param name="MergeVertices" value="true" isxmlparam="0" type="RichBool"/>
+   <Param name="AlsoUnreferenced" value="false" isxmlparam="0" type="RichBool"/>
+  </filter>
+</FilterScript>
