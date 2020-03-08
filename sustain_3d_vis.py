@@ -6,14 +6,14 @@ from matplotlib import pyplot as plt
 from matplotlib import cm
 import subprocess
 
-wd = "/Users/noxtoby/Documents/Research/FLF_MR-S03546X-1/ppi/pond_brains/3d_sustain_pipeline" #os.getcwd()
+wd = os.path.curdir
 df_ref = pd.read_csv(os.path.join(wd,"aparc.annot.ctab.csv"))
 
 df_sustain_cdf = pd.read_csv(os.path.join(wd,"DK_input_cumulativeprobability_example.csv"))
 
 #* Choose a subtype
 subtypes = ['Typical','Cortical','Subcortical']
-subtype = subtypes[2]
+subtype = subtypes[0]
 
 #* Select some stages
 stages_sustain = [1,5,9,13,17,21,25]
